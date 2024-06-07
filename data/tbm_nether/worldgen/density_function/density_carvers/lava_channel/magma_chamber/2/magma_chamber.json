@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:interpolated",
+    "argument": {
+        "type": "range_choice",
+        "input": "tbm_nether:terrain/continents",
+        "min_inclusive": 0.75,
+        "max_exclusive": 1.5,
+        "when_in_range": {
+            "type": "range_choice",
+            "input": "tbm_nether:terrain/erosion",
+            "min_inclusive": -0.1,
+            "max_exclusive": 64,
+            "when_in_range": "tbm_nether:density_carvers/lava_channel/magma_chamber/2/parameters/carver",
+            "when_out_of_range": 1
+        },
+        "when_out_of_range": 1
+    }
+}

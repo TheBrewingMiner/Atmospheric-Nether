@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:cache_once",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -64,
+        "to_y": 320,
+        "from_value": 1.5,
+        "to_value": -1.5
+      },
+      "argument2": "tbm_nether:math/offset"
+    }
+  },
+  "argument2": -0.1725
+}

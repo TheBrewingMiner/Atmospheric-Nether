@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:interpolated",
+    "argument": {
+        "type": "minecraft:add",
+        "argument1": "tbm_nether:terrain_actual/initial/ceiling_variance",
+        "argument2": "tbm_nether:math/ceiling_recession"
+    }
+}

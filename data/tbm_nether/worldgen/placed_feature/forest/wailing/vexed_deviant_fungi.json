@@ -1,0 +1,11 @@
+{
+    "feature": "tbm_nether:forest/wailing/vexed_deviant_fungus",
+    "placement": [
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:true"
+        }
+      }
+    ]
+}

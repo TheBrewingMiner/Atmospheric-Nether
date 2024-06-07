@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 320,
+    "xz_spread": 1,
+    "y_spread": 0,
+    "feature": {
+      "feature": "tbm_nether:lava_block",
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}

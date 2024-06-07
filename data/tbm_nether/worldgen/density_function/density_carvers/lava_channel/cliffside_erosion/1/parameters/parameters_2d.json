@@ -1,0 +1,35 @@
+{
+    "type": "range_choice",
+    "input": "minecraft:y",
+    "min_inclusive": 16,
+    "max_exclusive": 256,
+    "when_in_range": {
+        "type": "flat_cache",
+        "argument": {
+            "type": "cache_2d",
+            "argument": {
+                "type": "range_choice",
+                "input": "tbm_nether:terrain/continents",
+                "min_inclusive": -0.32,
+                "max_exclusive": 0.32,
+                "when_in_range": {
+                    "type": "range_choice",
+                    "input": "tbm_nether:terrain/erosion",
+                    "min_inclusive": -0.1,
+                    "max_exclusive": 64,
+                    "when_in_range": {
+                        "type": "range_choice",
+                        "input": "tbm_nether:terrain/ridges_folded",
+                        "min_inclusive": -1,
+                        "max_exclusive": -0.72,
+                        "when_in_range": 1,
+                        "when_out_of_range": 0
+                    },
+                    "when_out_of_range": 0
+                },
+                "when_out_of_range": 0
+            }
+        } 
+    },
+    "when_out_of_range": 0
+}

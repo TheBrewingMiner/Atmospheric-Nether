@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:range_choice",
+    "input": "tbm_nether:density_carvers/lava_channel/cliffside_erosion/1/parameters/parameters_3d",
+    "min_inclusive": 0.9,
+    "max_exclusive": 1.1,
+    "when_in_range": 0.15,
+    "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "tbm_nether:density_carvers/lava_channel/cliffside_erosion/2/parameters/parameters_3d",
+        "min_inclusive": 0.9,
+        "max_exclusive": 1.1,
+        "when_in_range": 0.15,
+        "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": "tbm_nether:noise_router/biome_parameters/base_terrain_depth",
+            "min_inclusive": 0.1,
+            "max_exclusive": 0.2,
+            "when_in_range": 0.2,
+            "when_out_of_range": {
+                "type": "minecraft:range_choice",
+                "input": "tbm_nether:noise_router/biome_parameters/base_terrain_depth",
+                "min_inclusive": 1.2,
+                "max_exclusive": 1.8,
+                "when_in_range": 1.3,
+                "when_out_of_range": "tbm_nether:noise_router/biome_parameters/base_terrain_depth"
+            }
+        }
+    }
+}

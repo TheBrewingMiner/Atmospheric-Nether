@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:interpolated",
+    "argument": {
+        "type": "minecraft:spline",
+        "spline": {
+            "coordinate": "tbm_nether:terrain/continents",
+            "points": [
+                {
+                    "location": -0.3,
+                    "derivative": 0,
+                    "value": 0
+                },
+                {
+                    "location": -0.125,
+                    "derivative": 0,
+                    "value": 0.0325
+                },
+                {
+                    "location": 0.2,
+                    "derivative": 0,
+                    "value": 0
+                }
+            ]
+        }
+    }
+}

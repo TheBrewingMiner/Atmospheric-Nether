@@ -1,0 +1,84 @@
+{
+    "type": "minecraft:squeeze",
+    "argument": {
+        "type": "minecraft:add",
+        "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+                "type": "minecraft:max",
+                "argument1": {
+                    "type": "minecraft:min",
+                    "argument1": {
+                        "type": "minecraft:min",
+                        "argument1": {
+                            "type": "minecraft:max",
+                            "argument1": {
+                                "type": "minecraft:interpolated",
+                                "argument": "tbm_nether:terrain_actual/initial/nether_sloped_cheese"
+                            },
+                            "argument2": {
+                                "type": "minecraft:max",
+                                "argument1": "tbm_nether:terrain_actual/adjusted_vanilla_density",
+                                "argument2": {
+                                    "type": "minecraft:interpolated",
+                                    "argument": {
+                                        "type": "minecraft:range_choice",
+                                        "input": "minecraft:y",
+                                        "min_inclusive": -64,
+                                        "max_exclusive": 22,
+                                        "when_in_range": "tbm_nether:terrain_actual/cave_layer_roof",
+                                        "when_out_of_range": -1
+                                    }
+                                }
+                            }
+                        },
+                        "argument2": {
+                            "type": "minecraft:min",
+                            "argument1": "tbm_nether:density_carvers/lava_channel/cliffside_erosion/1/subterranean_river",
+                            "argument2": {
+                                "type": "minecraft:min",
+                                "argument1": "tbm_nether:density_carvers/lava_channel/cliffside_erosion/2/subterranean_river",
+                                "argument2": {
+                                    "type": "minecraft:min",
+                                    "argument1": "tbm_nether:density_carvers/lava_channel/magma_chamber/1/magma_chamber",
+                                    "argument2": {
+                                        "type": "minecraft:min",
+                                        "argument1": "tbm_nether:density_carvers/lava_channel/magma_chamber/2/magma_chamber",
+                                        "argument2": {
+                                            "type": "minecraft:min",
+                                            "argument1": "tbm_nether:density_carvers/noodle_cave",
+                                            "argument2": {
+                                                "type": "minecraft:interpolated",
+                                                "argument": {
+                                                    "type": "minecraft:min",
+                                                    "argument1": "tbm_nether:density_carvers/spaghetti_cave/spaghetti_cave",
+                                                    "argument2": "tbm_nether:density_carvers/cheese_cave/cheese_cave_layer"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "argument2": "tbm_nether:density_carvers/entrances"
+                },
+                "argument2": "tbm_nether:terrain_actual/ceiling_final"
+            },
+            "argument2": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_y": 256,
+                "to_y": 240,
+                "from_value": 1,
+                "to_value": 0
+            }
+        },
+        "argument2": {
+            "type": "minecraft:y_clamped_gradient",
+            "from_y": -64,
+            "to_y": -56,
+            "from_value": 1,
+            "to_value": 0
+        }
+    }
+}

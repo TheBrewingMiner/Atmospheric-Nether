@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:interpolated",
+    "argument": {
+        "type": "minecraft:mul",
+        "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+                "type": "minecraft:add",
+                "argument1": {
+                    "type": "minecraft:add",
+                        "argument1": {
+                        "type": "minecraft:range_choice",
+                        "input": "tbm_nether:terrain/continents",
+                        "min_inclusive": -0.1,
+                        "max_exclusive": 0.876,
+                        "when_in_range": {
+                            "type": "minecraft:range_choice",
+                            "input": "tbm_nether:terrain_actual/initial/nether_sloped_cheese",
+                            "min_inclusive": -1.25,
+                            "max_exclusive": 64,
+                            "when_in_range": {
+                                "type": "minecraft:range_choice",
+                                "input": "minecraft:y",
+                                "min_inclusive": 2,
+                                "max_exclusive": 33,
+                                "when_in_range": {
+                                    "type": "minecraft:range_choice",
+                                    "input": "tbm_nether:terrain/ridges_folded",
+                                    "min_inclusive": -0.1,
+                                    "max_exclusive": 64,
+                                    "when_in_range": "minecraft:overworld/caves/entrances",
+                                    "when_out_of_range": 0.0925
+                                },
+                                "when_out_of_range": "minecraft:overworld/caves/entrances"
+                            },
+                            "when_out_of_range": 0.1
+                        },
+                        "when_out_of_range": {
+                            "type": "minecraft:range_choice",
+                            "input": "tbm_nether:terrain/continents",
+                            "min_inclusive": -64,
+                            "max_exclusive": -0.1,
+                            "when_in_range": {
+                                "type": "minecraft:range_choice",
+                                "input": "tbm_nether:terrain_actual/initial/nether_sloped_cheese",
+                                "min_inclusive": 0.25,
+                                "max_exclusive": 64,
+                                "when_in_range": "minecraft:overworld/caves/entrances",
+                                "when_out_of_range": 0.1
+                            },
+                            "when_out_of_range": 0.1
+                        }
+                    },
+                    "argument2": {
+                        "type": "minecraft:y_clamped_gradient",
+                        "from_y": -64,
+                        "to_y": -47,
+                        "from_value": 1,
+                        "to_value": 0
+                    }
+                },
+                "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": "tbm_nether:math/entrances/continental_edges",
+                    "argument2": "tbm_nether:math/entrances/ridges_edges"
+                }
+            },
+            "argument2": "tbm_nether:math/entrances/entrance_toggle"
+        },
+        "argument2": 5
+    }
+}

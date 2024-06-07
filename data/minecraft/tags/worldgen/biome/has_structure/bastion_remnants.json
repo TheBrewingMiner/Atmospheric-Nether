@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "tbm_nether:forests/old_growth_crimson_forest",
+        "tbm_nether:forests/old_growth_warped_forest"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "feature": "tbm_nether:lava_switch",
+    "placement": [
+        {
+            "type": "height_range",
+            "height": {
+                "absolute": 192
+            }
+        }
+    ]
+}

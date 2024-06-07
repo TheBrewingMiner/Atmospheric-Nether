@@ -1,0 +1,27 @@
+{
+    "feature": "tbm_nether:cave/ore/nether_gold_ore_extra",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 8
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:trapezoid",
+          "min_inclusive": {
+            "above_bottom": -48
+          },
+          "max_inclusive": {
+            "above_bottom": 48
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+}  

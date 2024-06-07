@@ -1,0 +1,65 @@
+{
+    "type": "minecraft:range_choice",
+    "input": "minecraft:y",
+    "min_inclusive": -64,
+    "max_exclusive": 4,
+    "when_in_range": {
+        "type": "minecraft:range_choice",
+        "input": "tbm_nether:noise_router/biome_parameters/depth",
+        "min_inclusive": 1.4,
+        "max_exclusive": 2,
+        "when_in_range": {
+            "type": "minecraft:range_choice",
+            "input": "tbm_nether:terrain/continents",
+            "min_inclusive": -0.2,
+            "max_exclusive": 0.035,
+            "when_in_range": {
+                "type": "minecraft:range_choice",
+                "input": "tbm_nether:terrain/erosion",
+                "min_inclusive": -1,
+                "max_exclusive": 0.06,
+                "when_in_range": -1,
+                "when_out_of_range": {
+                    "type": "minecraft:range_choice",
+                    "input": {
+                        "type": "minecraft:noise",
+                        "noise": "tbm_nether:terrain/cave_aquifer_toggle",
+                        "xz_scale": 1,
+                        "y_scale": 0.67
+                    },
+                    "min_inclusive": -0.32,
+                    "max_exclusive": 64,
+                    "when_in_range": 1,
+                    "when_out_of_range": 0
+                }
+            },
+            "when_out_of_range": {
+                "type": "minecraft:range_choice",
+                "input": {
+                    "type": "minecraft:noise",
+                    "noise": "tbm_nether:terrain/cave_aquifer_toggle",
+                    "xz_scale": 1,
+                    "y_scale": 0.67
+                },
+                "min_inclusive": -0.32,
+                "max_exclusive": 64,
+                "when_in_range": 1,
+                "when_out_of_range": 0
+            }
+        },
+        "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": {
+                "type": "minecraft:noise",
+                "noise": "tbm_nether:terrain/cave_aquifer_toggle",
+                "xz_scale": 1,
+                "y_scale": 0.67
+            },
+            "min_inclusive": -0.32,
+            "max_exclusive": 64,
+            "when_in_range": 1,
+            "when_out_of_range": 0
+        }
+    },
+    "when_out_of_range": 0
+}

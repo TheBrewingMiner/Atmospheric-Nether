@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:cache_once",
+    "argument": {
+        "type": "minecraft:mul",
+        "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_y": -64,
+                "to_y": 32,
+                "from_value": 1,
+                "to_value": -1
+            },
+            "argument2": {
+                "type": "minecraft:flat_cache",
+                "argument": {
+                    "type": "minecraft:cache_2d",
+                    "argument": {
+                        "type": "minecraft:spline",
+                        "spline": {
+                            "coordinate": "tbm_nether:terrain/ridges_folded",
+                            "points": [
+                                {
+                                    "location": -1,
+                                    "derivative": 0,
+                                    "value": 0.5
+                                },
+                                {
+                                    "location": -0.825,
+                                    "derivative": 0,
+                                    "value": 0.75
+                                },
+                                {
+                                    "location": 1.5,
+                                    "derivative": 0,
+                                    "value": 0.85
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "argument2": 8
+    }
+}

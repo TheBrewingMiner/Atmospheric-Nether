@@ -1,0 +1,78 @@
+{
+    "type": "minecraft:range_choice",
+    "input": "tbm_nether:terrain_actual/initial/nether_sloped_cheese",
+    "min_inclusive": -2.5,
+    "max_exclusive": 2.5,
+    "when_in_range": {
+        "type": "minecraft:add",
+        "argument1": -0.02,
+        "argument2": {
+            "type": "minecraft:spline",
+            "spline": {
+                "coordinate": "tbm_nether:terrain/erosion",
+                "points": [
+                    {
+                        "location": -1,
+                        "derivative": 0,
+                        "value": 0.12
+                    },
+                    {
+                        "location": -0.54,
+                        "derivative": 0,
+                        "value": 0.12
+                    },
+                    {
+                        "location": 0,
+                        "derivative": 0,
+                        "value": {
+                            "coordinate": "tbm_nether:math/entrances/entrance_level_spread",
+                            "points": [
+                                {
+                                    "location": -1,
+                                    "derivative": 0,
+                                    "value": 0.12
+                                },
+                                {
+                                    "location": 0.05,
+                                    "derivative": 0,
+                                    "value": 0.12
+                                },
+                                {
+                                    "location": 0.52,
+                                    "derivative": 0,
+                                    "value": 0
+                                },
+                                {
+                                    "location": 1.5,
+                                    "derivative": 0,
+                                    "value": 0
+                                },
+                                {
+                                    "location": 1.75,
+                                    "derivative": 0,
+                                    "value": 0
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "location": 0.825,
+                        "derivative": 0,
+                        "value": 0
+                    },
+                    {
+                        "location": 1.5,
+                        "derivative": 0,
+                        "value": 0
+                    },
+                    {
+                        "location": 2,
+                        "derivative": 0,
+                        "value": 0.12
+                    }
+                ]
+            }
+        }
+    },
+    "when_out_of_range": 0
+}

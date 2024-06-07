@@ -1,0 +1,14 @@
+This license describes how you, the user, may use this datapack and the code contained within this datapack. This license is subject to change by TheBrewingMiner at their discretion. This license was last altered on June 6, 2024.
+
+Permitted Uses:
+    - You may use this datapack for any reason at your discretion only restricted by the fact you are prohibited from redistributing the datapack in its whole or modified form. You are not allowed to redistribute this datapack in its entirety, neither under the same name nor another name.
+    - You are permitted to learn from this datapack, meaning you may utilize snippets of code, including files in their entirety, for your own projects. Should you utilize any of the content in this datapack for your own purposes, including projects you will publicly distribute, you must provide credit stating what was used and attribute it to TheBrewingMiner,
+      unless proper attribution is otherwise indicated.
+    - You are permitted to create and distribute add-on datapacks or modifications which utilize this datapack, or in other words, require the original datapack to function, as long as you provide credit for the original datapack and adhere to the above permitted uses.
+
+Prohibited Uses:
+    - You are prohibited from redistributing this datapack in any way, shape, or form in its standalone form nor in a modified form; the latter referring to copies that do not utilize the original datapack and operate on their own.
+    - You are prohibited from including this datapack in any publicly redistributed collection of datapacks.
+
+It is to be assumed by you, the user, that TheBrewingMiner, the author, reserves copyright over the datapack entirely. It is your responsibility to adhere to the license as the user and potentially as a content creator.
+It is to be assumed by you, the user, that TheBrewingMiner may authorize exemptions to the license at their sole discretion.

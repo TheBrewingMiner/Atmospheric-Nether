@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:cache_once",
+    "argument": {
+        "type": "minecraft:add",
+        "argument1": "tbm_nether:density_carvers/cheese_cave/cheese_cave",
+        "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_y": -52,
+                "to_y": -72,
+                "from_value": 0,
+                "to_value": 1.25
+            },
+            "argument2": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_y": -16,
+                "to_y": 16,
+                "from_value": 0,
+                "to_value": 1
+            }
+        }
+    }
+}

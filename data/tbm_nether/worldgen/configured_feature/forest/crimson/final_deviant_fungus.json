@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 100,
+    "xz_spread": 1,
+    "y_spread": 0,
+    "feature": "tbm_nether:forest/crimson/tall_deviant_fungus"
+  }
+}

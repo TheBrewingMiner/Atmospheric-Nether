@@ -1,0 +1,10 @@
+{
+    "pack": {
+       "pack_format": 10,
+       "supported_formats": [
+        10,
+        35
+       ],
+       "description": "A geologically immersive and geographically diverse Nether."
+    }
+}

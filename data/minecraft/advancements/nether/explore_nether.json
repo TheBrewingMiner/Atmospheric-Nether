@@ -1,0 +1,634 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_boots",
+        "nbt": "{Damage:0}"
+      },
+      "title": {
+        "translate": "advancements.nether.explore_nether.title"
+      },
+      "description": {
+        "translate": "advancements.nether.explore_nether.description"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:nether/ride_strider",
+    "criteria": {
+      "minecraft:basalt_deltas": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "minecraft:basalt_deltas"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "minecraft:crimson_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "minecraft:crimson_forest"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "minecraft:nether_wastes": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "minecraft:nether_wastes"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "minecraft:soul_sand_valley": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "minecraft:soul_sand_valley"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "minecraft:warped_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "minecraft:warped_forest"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:rivers/carved_river": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:rivers/carved_river"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:rivers/crimson_carved_river": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:rivers/crimson_carved_river"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:rivers/warped_carved_river": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:rivers/warped_carved_river"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:rivers/stony_carved_river": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:rivers/stony_carved_river"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:rivers/river_styx": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:rivers/river_styx"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:forests/wailing_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:forests/wailing_forest"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:forests/dispirited_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:forests/dispirited_forest"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:forests/old_growth_crimson_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:forests/old_growth_crimson_forest"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:forests/old_growth_warped_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:forests/old_growth_warped_forest"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:forests/old_growth_wailing_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:forests/old_growth_wailing_forest"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:forests/old_growth_dispirited_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:forests/old_growth_dispirited_forest"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:forests/ancient_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:forests/ancient_forest"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:caves/mournful_hollows": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:caves/mournful_hollows"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:caves/blackstone_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:caves/blackstone_caves"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:caves/crimson_caverns": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:caves/crimson_caverns"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:caves/warped_caverns": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:caves/warped_caverns"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:caves/mantle": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:caves/mantle"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:caves/quartz_crystal_caverns": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:caves/quartz_crystal_caverns"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:caves/gilded_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:caves/gilded_caves"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:caves/nether_substratum": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:caves/nether_substratum"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:caves/stifled_depths": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:caves/stifled_depths"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:continental_barrier": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:continental_barrier"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:basaltic_abrasion": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:basaltic_abrasion"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:soul_sand_floodplains": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:soul_sand_floodplains"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:continental_deltas": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:continental_deltas"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:volcanic_remnants": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:volcanic_remnants"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "tbm_nether:volcanic_sea": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "tbm_nether:volcanic_sea"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft:nether_wastes"
+      ],
+      [
+        "minecraft:soul_sand_valley"
+      ],
+      [
+        "minecraft:warped_forest"
+      ],
+      [
+        "minecraft:crimson_forest"
+      ],
+      [
+        "minecraft:basalt_deltas"
+      ],
+      [
+        "tbm_nether:rivers/carved_river"
+      ],
+      [
+        "tbm_nether:rivers/crimson_carved_river"
+      ],
+      [
+        "tbm_nether:rivers/warped_carved_river"
+      ],
+      [
+        "tbm_nether:rivers/stony_carved_river"
+      ],
+      [
+        "tbm_nether:rivers/river_styx"
+      ],
+      [
+        "tbm_nether:forests/wailing_forest"
+      ],
+      [
+        "tbm_nether:forests/dispirited_forest"
+      ],
+      [
+        "tbm_nether:forests/old_growth_crimson_forest"
+      ],
+      [
+        "tbm_nether:forests/old_growth_warped_forest"
+      ],
+      [
+        "tbm_nether:forests/old_growth_wailing_forest"
+      ],
+      [
+        "tbm_nether:forests/old_growth_dispirited_forest"
+      ],
+      [
+        "tbm_nether:forests/ancient_forest"
+      ],
+      [
+        "tbm_nether:caves/mournful_hollows"
+      ],
+      [
+        "tbm_nether:caves/blackstone_caves"
+      ],
+      [
+        "tbm_nether:caves/crimson_caverns"
+      ],
+      [
+        "tbm_nether:caves/warped_caverns"
+      ],
+      [
+        "tbm_nether:caves/mantle"
+      ],
+      [
+        "tbm_nether:caves/quartz_crystal_caverns"
+      ],
+      [
+        "tbm_nether:caves/gilded_caves"
+      ],
+      [
+        "tbm_nether:caves/nether_substratum"
+      ],
+      [
+        "tbm_nether:caves/stifled_depths"
+      ],
+      [
+        "tbm_nether:continental_barrier"
+      ],
+      [
+        "tbm_nether:basaltic_abrasion"
+      ],
+      [
+        "tbm_nether:soul_sand_floodplains"
+      ],
+      [
+        "tbm_nether:continental_deltas"
+      ],
+      [
+        "tbm_nether:volcanic_remnants"
+      ],
+      [
+        "tbm_nether:volcanic_sea"
+      ]
+    ],
+    "rewards": {
+      "experience": 525
+    }
+}  

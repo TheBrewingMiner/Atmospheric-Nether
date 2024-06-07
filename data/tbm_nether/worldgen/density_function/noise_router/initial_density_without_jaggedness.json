@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:max",
+    "argument1": {
+        "type": "minecraft:mul",
+        "argument1": "tbm_nether:terrain_actual/initial/nether_sloped_cheese",
+        "argument2": 0.35
+    },
+    "argument2": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:y",
+        "min_inclusive": -64,
+        "max_exclusive": 13,
+        "when_in_range": "tbm_nether:terrain_actual/cave_layer_roof",
+        "when_out_of_range": -1
+    }
+}
