@@ -16,7 +16,7 @@
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:minecraft:entity.enderman.scream",
+      "sound": "minecraft:entity.enderman.scream",
       "tick_chance": 0.001
     },
     "music": {
