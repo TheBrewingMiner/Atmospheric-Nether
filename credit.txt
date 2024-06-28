@@ -1,5 +1,5 @@
-This datapack would not be what it is now without methods developed by Apollo, also known as Apollo404 and as ApollowUnknown, and Stardust Labs. Their contributions to worldgen, namely underground river generation and Continents, respectively,
-were utilized in this datapack. Starmute of Stardust Labs also developed the technique used in this datapack to form the Nether ceiling, originally as a commission for TelepathicGrunt's Bumblezone.
+This datapack would not be what it is now without methods developed by Apollo, also known as Apollo404 and as ApollowUnknown, and Stardust Labs. Their contributions to worldgen, namely underground river generation, the "Holy Grail Technique,"
+and Continents, respectively, were utilized in this datapack. Starmute of Stardust Labs also developed the technique used in this datapack to form the Nether ceiling, originally as a commission for TelepathicGrunt's Bumblezone.
 
 Other resources I would like to credit are Misode's Minecraft Generators, Jacobsjo's density function editor and Snowcapped, and TheForsakenFurby's explanation of surface rules. Despite the tools' already great reputation, I feel compelled to share that
 these tools have made the development process so much easier. The links to these tools are provided below:
