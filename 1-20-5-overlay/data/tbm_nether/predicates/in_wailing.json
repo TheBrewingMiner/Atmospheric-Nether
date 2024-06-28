@@ -4,7 +4,7 @@
   "predicate": {
     "type": "minecraft:hoglin",
     "location": {
-      "biome": "tbm_nether:forests/wailing_forest",
+      "biomes": "tbm_nether:forests/wailing_forest",
       "dimension": "minecraft:the_nether"
     }
   }

@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:wart_blocks",
+        "#tbm_nether:vegetation_can_replace"
+    ]
+}
