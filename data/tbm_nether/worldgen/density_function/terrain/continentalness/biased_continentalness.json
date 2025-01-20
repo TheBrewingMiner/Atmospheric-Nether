@@ -1,0 +1,5 @@
+{
+    "type": "add",
+    "argument1": "tbm_nether:terrain/continentalness/continentalness",
+    "argument2": "tbm_nether:terrain/continentalness/continent_bias"
+}

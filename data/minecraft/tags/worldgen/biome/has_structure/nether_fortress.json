@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "tbm_nether:forests/wailing_forest",
+        "tbm_nether:forests/dispirited_forest",
+        "tbm_nether:forests/old_growth_crimson_forest",
+        "tbm_nether:forests/old_growth_warped_forest",
+        "tbm_nether:forests/old_growth_wailing_forest",
+        "tbm_nether:forests/old_growth_dispirited_forest",
+        "tbm_nether:continental_barrier",
+        "tbm_nether:basaltic_abrasion",
+        "tbm_nether:continental_deltas",
+        "tbm_nether:soul_sand_floodplains",
+        "tbm_nether:volcanic_remnants",
+        "tbm_nether:volcanic_sea"
+    ]
+}

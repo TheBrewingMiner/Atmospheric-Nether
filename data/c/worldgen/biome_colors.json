@@ -1,0 +1,142 @@
+{
+  "tbm_nether:forests/distorted_forest": {
+    "r": 0,
+    "g": 140,
+    "b": 180
+  },
+  "tbm_nether:forests/old_growth_crimson_forest": {
+    "r": 181,
+    "g": 26,
+    "b": 0
+  },
+  "tbm_nether:forests/old_growth_warped_forest": {
+    "r": 94,
+    "g": 48,
+    "b": 235
+  },
+  "tbm_nether:continental_barrier": {
+    "r": 120,
+    "g": 87,
+    "b": 0
+  },
+  "tbm_nether:basaltic_abrasion": {
+    "r": 68,
+    "g": 68,
+    "b": 68
+  },
+  "tbm_nether:soul_sand_floodplains": {
+    "r": 217,
+    "g": 80,
+    "b": 0
+  },
+  "tbm_nether:forests/wailing_forest": {
+    "r": 255,
+    "g": 106,
+    "b": 0
+  },
+  "tbm_nether:forests/dispirited_forest": {
+    "r": 211,
+    "g": 87,
+    "b": 254
+  },
+  "tbm_nether:forests/old_growth_wailing_forest": {
+    "r": 131,
+    "g": 17,
+    "b": 0
+  },
+  "tbm_nether:forests/old_growth_dispirited_forest": {
+    "r": 77,
+    "g": 34,
+    "b": 179
+  },
+  "tbm_nether:forests/ancient_forest": {
+    "r": 192,
+    "g": 192,
+    "b": 192
+  },
+  "tbm_nether:volcanic_remnants": {
+    "r": 96,
+    "g": 96,
+    "b": 96
+  },
+  "tbm_nether:continental_deltas": {
+    "r": 35,
+    "g": 35,
+    "b": 35
+  },
+  "tbm_nether:rivers/stony_carved_river": {
+    "r": 145,
+    "g": 145,
+    "b": 145
+  },
+  "tbm_nether:rivers/carved_river": {
+    "r": 124,
+    "g": 42,
+    "b": 0
+  },
+  "tbm_nether:river/river_styx": {
+    "r": 102,
+    "g": 97,
+    "b": 0
+  },
+  "tbm_nether:river/warped_carved_river": {
+    "r": 116,
+    "g": 167,
+    "b": 254
+  },
+  "tbm_nether:rivers/crimson_carved_river": {
+    "r": 227,
+    "g": 36,
+    "b": 0
+  },
+  "tbm_nether:rivers/lava_flow": {
+    "r": 213,
+    "g": 132,
+    "b": 0
+  },
+  "tbm_nether:nether_substratum": {
+    "r": 255,
+    "g": 38,
+    "b": 0
+  },
+  "tbm_nether:caves/mantle": {
+    "r": 154,
+    "g": 36,
+    "b": 79
+  },
+  "tbm_nether:caves/silent_grounds": {
+    "r": 46,
+    "g": 7,
+    "b": 62
+  },
+  "tbm_nether:caves/blackstone_caves": {
+    "r": 0,
+    "g": 0,
+    "b": 0
+  },
+  "tbm_nether:caves/crimson_caverns": {
+    "r": 181,
+    "g": 26,
+    "b": 0
+  },
+  "tbm_nether:caves/warped_caverns": {
+    "r": 123,
+    "g": 33,
+    "b": 159
+  },
+  "tbm_nether:caves/quartz_crystal_caverns": {
+    "r": 148,
+    "g": 227,
+    "b": 254
+  },
+  "tbm_nether:caves/gilded_caves": {
+    "r": 217,
+    "g": 235,
+    "b": 55
+  },
+  "tbm_nether:caves/mournful_hollows": {
+    "r": 88,
+    "g": 52,
+    "b": 0
+  }
+}

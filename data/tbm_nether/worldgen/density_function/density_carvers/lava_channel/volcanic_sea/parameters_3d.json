@@ -1,0 +1,18 @@
+{
+    "type": "cache_once",
+    "argument": {
+        "type": "range_choice",
+        "input": "minecraft:y",
+        "min_inclusive": -8,
+        "max_exclusive": 55,
+        "when_in_range": {
+            "type": "range_choice",
+            "input": "tbm_nether:terrain/depth",
+            "min_inclusive": -0.15,
+            "max_exclusive": 64,
+            "when_in_range": "tbm_nether:density_carvers/lava_channel/volcanic_sea/parameters_2d",
+            "when_out_of_range": 0
+        },
+        "when_out_of_range": 0
+    }
+}

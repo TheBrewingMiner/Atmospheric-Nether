@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": 4,
+    "argument2": {
+      "type": "minecraft:quarter_negative",
+      "argument": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": "tbm_nether:terrain/depth",
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": "tbm_nether:math/jaggedness",
+            "argument2": {
+              "type": "minecraft:half_negative",
+              "argument": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:jagged",
+                "xz_scale": 1500,
+                "y_scale": 0
+              }
+            }
+          }
+        },
+        "argument2": "tbm_nether:math/factor"
+      }
+    }
+  },
+  "argument2": "minecraft:nether/base_3d_noise"
+}

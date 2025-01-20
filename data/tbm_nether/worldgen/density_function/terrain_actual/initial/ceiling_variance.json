@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:add",
+    "argument1": {
+        "type": "y_clamped_gradient",
+        "from_y": 160,
+        "to_y": 256,
+        "from_value": -1.25,
+        "to_value": 1
+    },
+    "argument2": {
+        "type": "minecraft:shifted_noise",
+        "noise": "tbm_nether:terrain_actual/variance",
+        "xz_scale": 0.15,
+        "y_scale": 0.01,
+        "shift_x": "minecraft:shift_x",
+        "shift_y": 0,
+        "shift_z": "minecraft:shift_z"
+    }
+}

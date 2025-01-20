@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:cache_once",
+    "argument": {
+        "type": "minecraft:interpolated",
+        "argument": {
+        "type": "minecraft:add",
+            "argument1": "tbm_nether:density_carvers/spaghetti_cave/spaghetti_elevation",
+            "argument2": "minecraft:overworld/caves/spaghetti_roughness_function"
+        }
+    }
+}

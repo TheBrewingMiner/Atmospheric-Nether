@@ -1,0 +1,12 @@
+{
+    "feature": "tbm_nether:cave/lush_biomes/crimson_cave_tree",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 1
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

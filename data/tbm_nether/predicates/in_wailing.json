@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:hoglin",
+    "location": {
+      "biome": "tbm_nether:forests/wailing_forest",
+      "dimension": "minecraft:the_nether"
+    }
+  }
+}

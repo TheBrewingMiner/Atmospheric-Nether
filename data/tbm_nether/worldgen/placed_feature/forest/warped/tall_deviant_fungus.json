@@ -1,0 +1,11 @@
+{
+  "feature": "tbm_nether:forest/warped/tall_deviant_fungus",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:true"
+      }
+    }
+  ]
+}

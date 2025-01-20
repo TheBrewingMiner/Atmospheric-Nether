@@ -1,0 +1,27 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": [
+    "tbm_nether:lava_switch/-64",
+    "tbm_nether:lava_switch/-48",
+    "tbm_nether:lava_switch/-32",
+    "tbm_nether:lava_switch/-16",
+    "tbm_nether:lava_switch/0",
+    "tbm_nether:lava_switch/16",
+    "tbm_nether:lava_switch/32",
+    "tbm_nether:lava_switch/48",
+    "tbm_nether:lava_switch/64",
+    "tbm_nether:lava_switch/80",
+    "tbm_nether:lava_switch/96",
+    "tbm_nether:lava_switch/112",
+    "tbm_nether:lava_switch/128",
+    "tbm_nether:lava_switch/144",
+    "tbm_nether:lava_switch/160",
+    "tbm_nether:lava_switch/176",
+    "tbm_nether:lava_switch/192",
+    "tbm_nether:lava_switch/208",
+    "tbm_nether:lava_switch/224",
+    "tbm_nether:lava_switch/240"
+  ],
+  "step": "raw_generation"
+}

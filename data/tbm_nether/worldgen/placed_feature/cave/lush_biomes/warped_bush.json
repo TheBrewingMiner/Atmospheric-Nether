@@ -1,0 +1,23 @@
+{
+  "feature": "tbm_nether:cave/lush_biomes/warped_bush",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 2
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 16,
+      "target_condition": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:warped_fungus"
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

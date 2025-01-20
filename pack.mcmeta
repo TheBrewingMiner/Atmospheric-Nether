@@ -1,0 +1,35 @@
+{
+    "pack": {
+       "pack_format": 10,
+       "supported_formats": [
+        10,
+        57
+       ],
+       "description": "A geologically immersive and geographically diverse Nether."
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": [
+                    41,
+                    42
+                ],
+                "directory": "1-20-5-overlay"
+            },
+            {
+                "formats": [
+                    43,
+                    48
+                ],
+                "directory": "1-21-overlay"
+            },
+            {
+                "formats": [
+                    49,
+                    57
+                ],
+                "directory": "1-21-2-overlay"
+            }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "tbm_nether:volcanic_remnants",
+        "tbm_nether:forests/ancient_forest"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:cache_once",
+    "argument": {
+        "type": "minecraft:flat_cache",
+        "argument": {
+            "type": "minecraft:cache_2d",
+            "argument": {
+                "type": "minecraft:mul",
+                "argument1": -1,
+                "argument2": {
+                    "type": "spline",
+                    "spline": {
+                        "coordinate": {
+                            "type": "minecraft:abs",
+                            "argument": "tbm_nether:terrain/continents"
+                        },
+                        "points": [
+                            {
+                                "location": 0,
+                                "derivative": 0,
+                                "value": 0
+                            },
+                            {
+                                "location": 0.55,
+                                "derivative": 0,
+                                "value": 0
+                            },
+                            {
+                                "location": 0.72,
+                                "derivative": 0.33,
+                                "value": 0.075
+                            },
+                            {
+                                "location": 1.5,
+                                "derivative": 0.45,
+                                "value": 0.75
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

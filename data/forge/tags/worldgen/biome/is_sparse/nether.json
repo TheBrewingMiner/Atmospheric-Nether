@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "tbm_nether:forests/ancient_forest",
+        "tbm_nether:forests/wailing_forest",
+        "tbm_nether:forests/dispirited_forest",
+        "tbm_nether:forests/old_growth_wailing_forest",
+        "tbm_nether:forests/old_growth_dispirited_forest"
+    ]
+}

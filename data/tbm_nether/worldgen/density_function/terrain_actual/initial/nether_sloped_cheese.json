@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": "tbm_nether:terrain_actual/initial/sloped_cheese",
+    "argument2": -1.5
+  }
+}

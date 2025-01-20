@@ -1,0 +1,56 @@
+{
+    "feature": "tbm_nether:forest/dispirited/final_vexed_deviant_fungus",
+    "placement": [
+      {
+        "type": "minecraft:count_on_every_layer",
+        "count": {
+          "type": "minecraft:weighted_list",
+          "distribution": [
+            {
+              "weight": 7,
+              "data": 0
+            },
+            {
+              "weight": 2,
+              "data": 1
+            },
+            {
+              "weight": 1,
+              "data": 2
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:all_of",
+          "predicates": [
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "blocks": "minecraft:air"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:warped_nylium"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+}
