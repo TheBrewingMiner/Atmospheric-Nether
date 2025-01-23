@@ -1,17 +1,32 @@
-This license describes how you, the user, may use this project and the assets contained within this project. This license is subject to change by TheBrewingMiner at their discretion. This license was last altered on January 4, 2025.
+This license describes how you, the user, may use this project and the assets contained within this project.
+This license is subject to change by TheBrewingMiner at their discretion. This license was last altered on January 18, 2025.
 
 Permitted Uses:
-    - You may use this project for any reason at your discretion only restricted by the fact you are prohibited from redistributing the project in its whole or modified form publicly. You are not allowed to redistribute this datapack in its entirety, neither under the same name nor another name.
+    - You may use this project for any reason at your discretion only restricted by the fact you are prohibited from redistributing the project 
+      in its whole or modified form publicly. You are not allowed to redistribute this project in its entirety, neither under the same name nor another name.
 
-    - You are permitted to learn from this project, meaning you may utilize snippets of code, including files in their entirety, for your own projects. Should you utilize any of the content in this project for your own purposes, including projects you will publicly distribute, you must provide credit stating what was used and attribute it to TheBrewingMiner, unless proper attribution is otherwise indicated.
+    - You are permitted to learn from this project, meaning you may utilize snippets of code, including files in their entirety, for your own projects.
+      Should you utilize any of the content in this project for your own purposes, including projects you will publicly distribute, you must provide
+      credit stating what was used and attribute it to TheBrewingMiner, unless proper attribution is otherwise indicated.
+        - To clarify, this is meant to prohibit plagiarism of the entire project. So, in other words, you may utilize portions of the project as long as 
+          you do not present the assets as your own, and your project has meaningful differences that indicate originality of your own.
 
-    - You are permitted to create and distribute add-on projects or modifications which utilize this project, or in other words, require the original project to function, as long as you provide credit for the original project and adhere to the above permitted uses.
+    - You are permitted to create and distribute add-on projects or modifications which utilize this project, or in other words, require the original project 
+      to function, as long as you provide credit for the original project and adhere to the above permitted uses.
+
+    - In the case of modifications (also known as "mods"), you may include the project in modpacks.
+
+=======================================================================================================================================================================
 
 Prohibited Uses:
-    - You are prohibited from redistributing this project in any way, shape, or form in its standalone form entirely nor in a modified form for PUBLIC use; the latter referring to copies that do not utilize the original project and operate on their own.
+    - You are prohibited from redistributing this project in any way, shape, or form in its standalone form entirely nor in a modified form for PUBLIC use;
+      the latter referring to copies that do not utilize the original project and operate on their own.
         - To clarify, in the latter case (modified form), you may distribute such PRIVATELY (e.g. Personal use, Server use)
 
-It is to be assumed by you, the user, that TheBrewingMiner, the author, reserves copyright over the project entirely. It is your responsibility to adhere to the license as the user and potentially as a content creator.
+    - In the case of datapacks, you may NOT include the project in "datapack packs."
+
+It is to be assumed by you, the user, that TheBrewingMiner, the author, reserves copyright over the project entirely. It is your responsibility 
+to adhere to the license as the user and potentially as a content creator.
 It is to be assumed by you, the user, that TheBrewingMiner may authorize exemptions to the license at their sole discretion.
 
 You can find a copy of this license and/or the most up-to-date iteration here: https://github.com/TheBrewingMiner/license/blob/main/license.txt
